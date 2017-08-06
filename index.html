@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 	<head>
+		<title>Z A K I Y A    S I M S</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 				<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -8,36 +10,61 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
 	</head>
 	<body>
-		<div class="navigation">
-			<nav class="navbar navbar-inverse">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <a class="navbar-brand" href="#">Zakiya Sims</a>
-			    </div>
-			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="#">About</a></li>
-			      <li><a href="#">Projects</a></li>
-			    </ul>
-			  </div>
-			</nav>
+		<header class="topbar">
+		    <div class="nav">
+		      <ul>
+		        <li class="home"><a class="active" href="index.html">Home</a>
+		        </li>
+		        <li class="projects"><a href="#contact">Projects</a>
+		        </li>
+		        <li class="about"><a href="#contact">Contact</a>
+		        </li>
+		      </ul>
+		    </div>
+		</header>
+		<div class="video">
+			<div class="banner">
+				<video controls muted loop
+				  src="media/bannerVid.mp4"
+				  autoplay
+				/>
+			</div>
 		</div>
-		<div class="banner">
-			<video controls muted loop
-			  src="media/bannerVid.mp4"
-			  autoplay
-			/>
-		</div>
-		<div class="button">
-			<button type="button" class="btn btn-primary btn-lg outline"><b>LEARN MORE</b></button>
-		</div>
-		<div class="span">
-			<span class="highlight"><h1>Brooklynite with a passion for software engineering</h1></span>
-		</div>
-		<div class="arrow">
-			<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+		<div class="about">
+			<h1 class="about "><code>Code is love. Code is life</code></h1>
+			<div class="text col-md-6">
+				I am a native Brooklynite, whose interests range from developing software to going rumaging through used clothing at thrift stores and stoop sales. My passion for software ignited in middle school while crerated custom templated for my MySpace page. Since then, my passion has evolved by teaching children about technology and developing websites in my spare time. My experience in the technology industry has ranged from volunteering as a councilor at Tech Kids Unlimited and STEM teacher at the New York Academy of Science. Furthermore, I have interned as a Technology Intern at Bank of America and am currently a Software Engineering Intern at Harris Corporation. In addition I have played an active role in proliferating technology education as Vice - President of the Pace Computing Society at Pace University.
+			</div>
+			<div class="pics col-md-6">
+				<div class="col-md-3">
+					<img class="aboutImg" src="media/pic1.jpg" />
+				</div>
+				<div class="col-md-3 col-md-push-2">
+					<img class="aboutImg" src="media/pic2.jpg" />
+				</div>
+			</div>
+			<div class="projects col-md-12">
+				<h1 class="about "><code>Technical Projects</code></h1>
+				<div class="boxes col-md-6 col-md-push-3">
+					<div class="project col-md-6">
+						<h3><a href="">Greenr</a></h3>
+					</div>
+					<div class="project col-md-6">
+						<h3><a href="">t3chv3rsity</a></h3>
+					</div>
+					<div class="project col-md-6">
+						<h3><a href="">Arrow Fit</a></h3>
+					</div>
+					<div class="project col-md-6">
+						<h3><a href="">Chang O' Bakery</a></h3>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
