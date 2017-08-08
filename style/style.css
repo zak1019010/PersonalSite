@@ -210,7 +210,9 @@ h3{
     text-align: center;
 }
 video{
+  vertical-align: top;
     width: 100%;
+    filter: blur(7px);
 }
 .aboutImg {
     width: 300px;
@@ -221,7 +223,16 @@ video{
     border: black 1px solid;
     margin-right: 5%;
     margin-bottom: 5%;
-    width: 300px;
+    width: 350px;
     height: 150px;
     border-radius: 5px;
+}
+.headerTitle{
+  font-family: 'Zilla Slab Highlight';
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-size: 52px;
+  top: 50%;
+  right: 20%;
 }
