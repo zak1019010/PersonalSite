@@ -1,13 +1,14 @@
 body {
+  background:rgba(15,82,87,.7);
   margin: 0;
   padding: 0;
-
   left: 0;
-    top: 0;
-    margin: 0px;
-    padding: 0px;
-   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  transition: background 0.4 ease;
 }
 
 .
@@ -142,7 +143,6 @@ h2 span {
     width:200px;
     height:70px;
 }
-
 header.topbar{
    /* background-color: #f8f6f6; */
     position: fixed;
@@ -154,7 +154,6 @@ header.topbar{
     left: 0;
 }
  
-
 h1{
   text-align: center;
   font: Arial;
@@ -164,7 +163,7 @@ h3{
     text-align: center;
 }
 video{
-  vertical-align: top;
+    vertical-align: top;
     width: 100%;
     filter: blur(7px);
 }
@@ -175,12 +174,11 @@ video{
 }
 .project {
     border: black 1px solid;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    width: 350px;
-    height: 150px;
-    border-radius: 5px;
+    width: 50%;
+    height: 250px;
+    color:black;
 }
+
 .headerTitle{
   font-family: 'Zilla Slab Highlight';
   color: white;
@@ -190,7 +188,7 @@ video{
   top: 50%;
   right: 18%;
 }
-.about{
+.about{ 
   height: 100%;
 }
 .heading{
@@ -203,11 +201,21 @@ video{
   color:black;
 }
 .body-text{
-  font-family: font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
   font-size: 32px;
   text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
 }
 .video{
   border-bottom: black solid .1px;
   box-shadow: 1px 1px 1px black;
+}
+.projects{
+  margin-top: 0%;
+
+}
+
+.project1{
+  background-image: url("media/background1.jpg");
 }
