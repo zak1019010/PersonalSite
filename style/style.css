@@ -173,6 +173,7 @@ video{
     margin-right: 5%;
 }
 .project {
+
     border: black 1px solid;
     width: 50%;
     height: 250px;
@@ -216,6 +217,46 @@ video{
 
 }
 
-.project1{
-  background-image: url("media/background1.jpg");
+#project1{
+  background: url("https://static.pexels.com/photos/258083/pexels-photo-258083.jpeg");
+  background-size: 750px 350px;
+  z-index: 1;
 }
+#project1:hover + .project-btn1{
+  visibility: visible;
+}
+#project1:hover {
+  filter: blur(2px);
+}
+#project2{
+  background: url("https://static.pexels.com/photos/306534/pexels-photo-306534.jpeg");
+  background-size: 800px 500px;
+  z-index: 1;
+}
+#project3{
+  background: url("https://static.pexels.com/photos/374633/pexels-photo-374633.jpeg");
+  background-size: 750px 350px;
+  z-index: 1;
+}
+#project4{
+  background: url("https://static.pexels.com/photos/357627/pexels-photo-357627.jpeg");
+  background-size: 800px 500px;
+  z-index: 1;
+}
+#project5{
+  background: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
+  background-size: 800px 500px;
+  z-index: 1;
+}
+.project-heading{
+  position: absolute;
+  top:50%;
+}
+.project-btn1{
+  position: fixed;
+  top: 80%;
+  right:50%;
+}
+
+
+
