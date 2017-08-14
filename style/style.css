@@ -1,5 +1,11 @@
+html{
+  height: 100%;
+
+}
 body {
-  background:rgba(15,82,87,.7);
+  position: fixed;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   left: 0;
@@ -8,10 +14,10 @@ body {
   padding: 0px;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
-  transition: background 0.4 ease;
+   overflow: scroll;
 }
 
-.
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -27,7 +33,6 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 16px;
@@ -39,25 +44,6 @@ body {
   border-radius: 6px;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #428bca;
-  border-color: #357ebd;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #3276b1;
-  border-color: #285e8e;
-}
-
-/***********************
-  OUTLINE BUTTONS
-************************/
 
 .btn.outline {
     background: none;
@@ -77,20 +63,18 @@ body {
     box-shadow: none;
 }
 
-/***********************
-  CUSTON BTN VALUES
-************************/
+
 h2 { 
   font-weight: -100px;
   text-align: center;
    position: absolute; 
    top: 200px; 
-   left: 50px; 
+   left: 0px; 
    width: 100%; 
 }
 h2 span { 
    color: white; 
-   font: bold 50px/70px Helvetica, Sans-Serif; 
+   font: bold 60px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -103,15 +87,6 @@ h2 span {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
-}
-#img_container {
-    position:relative;
-    display:inline-block;
-    text-align:center;
-    border:1px solid red;
-}
 
 .btn-lg {
     position:absolute;
@@ -120,143 +95,108 @@ h2 span {
     width:200px;
     height:50px;
 }
-.glyphicon-menu-down{
-       position:absolute;
-    bottom:300px;
-    right:500px;
-    width:100px;
-    height:30px;
-}
-.btn-xl {
-    padding: 20px 40px;
-    /*border-color: #fed136; */
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
-    position:absolute;
-    bottom:300px;
-    right:450px;
-    width:200px;
-    height:70px;
-}
-header.topbar{
-   /* background-color: #f8f6f6; */
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    opacity: 1;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
- 
+
+
 h1{
   text-align: center;
-  font: Arial;
+
 }
 
 h3{
     text-align: center;
 }
-video{
-    vertical-align: top;
-    width: 100%;
-    filter: blur(7px);
-}
-.aboutImg {
-    width: 300px;
-    height: 150px;
-    margin-right: 5%;
-}
-.project {
 
-    border: black 1px solid;
-    width: 50%;
-    height: 250px;
-    color:black;
-}
 
-.headerTitle{
-  font-family: 'Zilla Slab Highlight';
-  color: white;
-  position: absolute;
-  z-index: 1;
-  font-size: 60px;
-  top: 50%;
-  right: 18%;
-}
+
+
 .about{ 
-  height: 100%;
+  width: 100%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;  
 }
-.heading{
-  padding-bottom: 3%;
-}
+
 .btn-primary{
   color: black;
 }
 .btn-primary a:visited {
   color:black;
 }
-.body-text{
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 32px;
-  text-align: center;
-  border-bottom: 1px solid black;
-  padding-bottom: 5%;
-}
-.video{
-  border-bottom: black solid .1px;
-  box-shadow: 1px 1px 1px black;
-}
+
 .projects{
   margin-top: 0%;
 
 }
 
-#project1{
-  background: url("https://static.pexels.com/photos/258083/pexels-photo-258083.jpeg");
-  background-size: 750px 350px;
-  z-index: 1;
+
+.text{
+  color: black;
+  font-size: 24px;
 }
-#project1:hover + .project-btn1{
-  visibility: visible;
-}
-#project1:hover {
-  filter: blur(2px);
-}
-#project2{
-  background: url("https://static.pexels.com/photos/306534/pexels-photo-306534.jpeg");
-  background-size: 800px 500px;
-  z-index: 1;
-}
-#project3{
-  background: url("https://static.pexels.com/photos/374633/pexels-photo-374633.jpeg");
-  background-size: 750px 350px;
-  z-index: 1;
-}
-#project4{
-  background: url("https://static.pexels.com/photos/357627/pexels-photo-357627.jpeg");
-  background-size: 800px 500px;
-  z-index: 1;
-}
-#project5{
-  background: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
-  background-size: 800px 500px;
-  z-index: 1;
-}
-.project-heading{
+.icon1{
   position: absolute;
-  top:50%;
+  right:16%;
 }
-.project-btn1{
-  position: fixed;
-  top: 80%;
-  right:50%;
+.icon2{
+  position: absolute;
+  right:13%;
+}
+.icon3{
+  position: absolute;
+  right:10%;
+}
+.icon4{
+  position: absolute;
+  right:7%;
+}
+.icon5{
+  position: absolute;
+  right:4%;
+}
+.icon6{
+  position: absolute;
+  right:1%;
+}
+.about-text{
+  margin-right: 3%;
 }
 
+.banner{
+  position:fixed;
+  top:0;
+  left:-50%;
+  width:200%;
+  height:100%;
+}
+.banner img{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  padding-bottom: 20%;
+}
+.glyphicon-chevron-down{
+  font-size: 50px;
+  position: absolute;
+  top:80%;
+  right: 50%;
+}
+.glyphicon-chevron-down:hover{
+  font-size: 56px;
+  text-shadow: 7px 7px 10px gray;
 
-
+}
+a {
+  color:black;
+}
+.about{
+  margin: 0;
+  padding-top: 50%;
+  background:#d6dddf;
+  height: 500px;
+  width: 100%;
+}
+.heading{
+  font-size: 32px;
+}
